@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Simple Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>This is a simple website using HTML, CSS, and JavaScript.</p>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>This is a demo website for learning web development.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button onclick="greetUser()">Submit</button>
+        <p id="greeting"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
